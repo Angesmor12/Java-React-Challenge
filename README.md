@@ -3,12 +3,9 @@
 # Front-end
 The front-end part of the project was developed using React v19.0.0, with Node.js v22.14.0 and npm v10.9.2, using Visual Studio Code as the development environment.
 
-Running the project
 To run the project correctly, follow these steps:
 
 Make sure you have Node.js and npm installed on your system.
-
-Unzip the "demo-front" folder.
 
 From the terminal, navigate to the "demo-front" folder.
 
@@ -24,14 +21,11 @@ http://localhost:3000
 The back-end part of the project was developed using Spring Boot 2.7.10, with Maven 3.9.9 to manage dependencies and package the project into a JAR file.
 The project is based on Java JDK 17, and the development environment used was IntelliJ IDEA.
 
-Running the Project
 To run the project correctly, follow these steps:
 
 Make sure JDK 17 and Maven are installed on your system.
 
-Unzip the "demo" folder.
-
-From the terminal, navigate to the "demo" folder.
+From the terminal, navigate to the "demo-back" folder.
 
 Run the following commands:
 a. mvn clean install (installs the dependencies)
