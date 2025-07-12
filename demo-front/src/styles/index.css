@@ -1,0 +1,62 @@
+/* Aquí definiría mis estilos globales */
+
+body{
+    overflow-x: hidden;
+    background: rgb(201, 213, 223);
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alert{
+    color: rgb(252, 34, 34);
+    font-weight: 700;
+}
+
+.main-title{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    font-size: 0.8rem;
+    color: rgba(116, 116, 116, 0.712);
+}
+
+header{
+    width: 100%;
+    background: rgb(178, 191, 202);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    text-align: right;
+}
+
+.leave-button{
+    border: 0;
+    background: 0;
+    font-size: 1rem;
+    transform: translateY(-5px);
+}
+
+textarea{
+    resize: none;
+}
+
+input, textarea{
+    border: 0;
+    border-bottom: 1px solid rgb(0,0,0);
+}
+
+button{
+    border: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    background: rgb(225, 233, 240);
+}

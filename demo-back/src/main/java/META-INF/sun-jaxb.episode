@@ -1,0 +1,3051 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2025.03.14 a las 10:29:30 AM ART 
+
+  -->
+      
+    <bindings xmlns:tns="http://FidelyNET3_WS_01_89_00.Local" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.demo.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:SynchroRequest">
+                  
+            <class ref="com.demo.wsdl.SynchroRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SynchroResponse">
+                  
+            <class ref="com.demo.wsdl.SynchroResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LoginRequest">
+                  
+            <class ref="com.demo.wsdl.LoginRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LoginResponse">
+                  
+            <class ref="com.demo.wsdl.LoginResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SynchroAndLoginRequest">
+                  
+            <class ref="com.demo.wsdl.SynchroAndLoginRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SynchroAndLoginResponse">
+                  
+            <class ref="com.demo.wsdl.SynchroAndLoginResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LogoutRequest">
+                  
+            <class ref="com.demo.wsdl.LogoutRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LogoutResponse">
+                  
+            <class ref="com.demo.wsdl.LogoutResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoShopRequest">
+                  
+            <class ref="com.demo.wsdl.GetInfoShopRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoShopResponse">
+                  
+            <class ref="com.demo.wsdl.GetInfoShopResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCampaignListRequest">
+                  
+            <class ref="com.demo.wsdl.GetCampaignListRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCampaignListResponse">
+                  
+            <class ref="com.demo.wsdl.GetCampaignListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCategoriesRequest">
+                  
+            <class ref="com.demo.wsdl.GetCategoriesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCategoriesResponse">
+                  
+            <class ref="com.demo.wsdl.GetCategoriesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardRequest">
+                  
+            <class ref="com.demo.wsdl.NewCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardResponse">
+                  
+            <class ref="com.demo.wsdl.NewCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardStringGeolevelRequest">
+                  
+            <class ref="com.demo.wsdl.NewCardStringGeolevelRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardStringGeolevelResponse">
+                  
+            <class ref="com.demo.wsdl.NewCardStringGeolevelResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardByCardRequest">
+                  
+            <class ref="com.demo.wsdl.NewCardByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardByCardResponse">
+                  
+            <class ref="com.demo.wsdl.NewCardByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RequestPointsRequest">
+                  
+            <class ref="com.demo.wsdl.RequestPointsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RequestPointsResponse">
+                  
+            <class ref="com.demo.wsdl.RequestPointsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LastTicketRequest">
+                  
+            <class ref="com.demo.wsdl.LastTicketRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LastTicketResponse">
+                  
+            <class ref="com.demo.wsdl.LastTicketResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReplaceCardRequest">
+                  
+            <class ref="com.demo.wsdl.ReplaceCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReplaceCardResponse">
+                  
+            <class ref="com.demo.wsdl.ReplaceCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReplaceCardSecureRequest">
+                  
+            <class ref="com.demo.wsdl.ReplaceCardSecureRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReplaceCardSecureResponse">
+                  
+            <class ref="com.demo.wsdl.ReplaceCardSecureResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoCancelLastTransactionRequest">
+                  
+            <class ref="com.demo.wsdl.GetInfoCancelLastTransactionRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoCancelLastTransactionResponse">
+                  
+            <class ref="com.demo.wsdl.GetInfoCancelLastTransactionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CancelLastTransactionRequest">
+                  
+            <class ref="com.demo.wsdl.CancelLastTransactionRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CancelLastTransactionResponse">
+                  
+            <class ref="com.demo.wsdl.CancelLastTransactionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CancelTransactionByIdRequest">
+                  
+            <class ref="com.demo.wsdl.CancelTransactionByIdRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CancelTransactionByIdResponse">
+                  
+            <class ref="com.demo.wsdl.CancelTransactionByIdResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CancelLastTransactionByShopRequest">
+                  
+            <class ref="com.demo.wsdl.CancelLastTransactionByShopRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CancelLastTransactionByShopResponse">
+                  
+            <class ref="com.demo.wsdl.CancelLastTransactionByShopResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByCardRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByCardResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByIDRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByIDRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByIDResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByIDResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByIdentityCardRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByIdentityCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByIdentityCardResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByIdentityCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByPersonalDataRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByPersonalDataRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByPersonalDataResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByPersonalDataResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByPersonalDataByCampaignRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByPersonalDataByCampaignRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByPersonalDataByCampaignResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByPersonalDataByCampaignResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByCardRequest">
+                  
+            <class ref="com.demo.wsdl.GetInfoByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByCardResponse">
+                  
+            <class ref="com.demo.wsdl.GetInfoByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByBankingCardRequest">
+                  
+            <class ref="com.demo.wsdl.GetInfoByBankingCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByBankingCardResponse">
+                  
+            <class ref="com.demo.wsdl.GetInfoByBankingCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByOtherCardRequest">
+                  
+            <class ref="com.demo.wsdl.GetInfoByOtherCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByOtherCardResponse">
+                  
+            <class ref="com.demo.wsdl.GetInfoByOtherCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyUsernameAndPasswordRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyUsernameAndPasswordRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyUsernameAndPasswordResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyUsernameAndPasswordResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCustomerByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyCustomerByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCustomerByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyCustomerByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastMovementsRequest">
+                  
+            <class ref="com.demo.wsdl.GetLastMovementsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastMovementsResponse">
+                  
+            <class ref="com.demo.wsdl.GetLastMovementsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SaleRequest">
+                  
+            <class ref="com.demo.wsdl.SaleRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SaleResponse">
+                  
+            <class ref="com.demo.wsdl.SaleResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SaleByCardRequest">
+                  
+            <class ref="com.demo.wsdl.SaleByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SaleByCardResponse">
+                  
+            <class ref="com.demo.wsdl.SaleByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateProductsRequest">
+                  
+            <class ref="com.demo.wsdl.ValidateProductsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateProductsResponse">
+                  
+            <class ref="com.demo.wsdl.ValidateProductsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RequestDiscountsRequest">
+                  
+            <class ref="com.demo.wsdl.RequestDiscountsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RequestDiscountsResponse">
+                  
+            <class ref="com.demo.wsdl.RequestDiscountsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetVoucherListRequest">
+                  
+            <class ref="com.demo.wsdl.GetVoucherListRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetVoucherListResponse">
+                  
+            <class ref="com.demo.wsdl.GetVoucherListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInterestAreasRequest">
+                  
+            <class ref="com.demo.wsdl.GetInterestAreasRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInterestAreasResponse">
+                  
+            <class ref="com.demo.wsdl.GetInterestAreasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateVoucherRequest">
+                  
+            <class ref="com.demo.wsdl.ValidateVoucherRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateVoucherResponse">
+                  
+            <class ref="com.demo.wsdl.ValidateVoucherResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsRequest">
+                  
+            <class ref="com.demo.wsdl.ChargePointsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsResponse">
+                  
+            <class ref="com.demo.wsdl.ChargePointsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ChargePointsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ChargePointsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsRequest">
+                  
+            <class ref="com.demo.wsdl.DischargePointsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsResponse">
+                  
+            <class ref="com.demo.wsdl.DischargePointsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.DischargePointsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.DischargePointsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsByCardNonSellerRequest">
+                  
+            <class ref="com.demo.wsdl.DischargePointsByCardNonSellerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsByCardNonSellerResponse">
+                  
+            <class ref="com.demo.wsdl.DischargePointsByCardNonSellerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargeCreditsRequest">
+                  
+            <class ref="com.demo.wsdl.ChargeCreditsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargeCreditsResponse">
+                  
+            <class ref="com.demo.wsdl.ChargeCreditsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargeCreditsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ChargeCreditsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargeCreditsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ChargeCreditsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsRequest">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsResponse">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LockCardRequest">
+                  
+            <class ref="com.demo.wsdl.LockCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LockCardResponse">
+                  
+            <class ref="com.demo.wsdl.LockCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UnlockCardRequest">
+                  
+            <class ref="com.demo.wsdl.UnlockCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UnlockCardResponse">
+                  
+            <class ref="com.demo.wsdl.UnlockCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewGiftCardRequest">
+                  
+            <class ref="com.demo.wsdl.NewGiftCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewGiftCardResponse">
+                  
+            <class ref="com.demo.wsdl.NewGiftCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewGiftCardByCardRequest">
+                  
+            <class ref="com.demo.wsdl.NewGiftCardByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewGiftCardByCardResponse">
+                  
+            <class ref="com.demo.wsdl.NewGiftCardByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsGiftRequest">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsGiftRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsGiftResponse">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsGiftResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsGiftByCardRequest">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsGiftByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargeCreditsGiftByCardResponse">
+                  
+            <class ref="com.demo.wsdl.DischargeCreditsGiftByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExtendExpirationDateRequest">
+                  
+            <class ref="com.demo.wsdl.ExtendExpirationDateRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExtendExpirationDateResponse">
+                  
+            <class ref="com.demo.wsdl.ExtendExpirationDateResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangablePrizesRequest">
+                  
+            <class ref="com.demo.wsdl.GetExchangablePrizesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangablePrizesResponse">
+                  
+            <class ref="com.demo.wsdl.GetExchangablePrizesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangePrizesRequest">
+                  
+            <class ref="com.demo.wsdl.ExchangePrizesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangePrizesResponse">
+                  
+            <class ref="com.demo.wsdl.ExchangePrizesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDeliverablePrizesRequest">
+                  
+            <class ref="com.demo.wsdl.GetDeliverablePrizesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDeliverablePrizesResponse">
+                  
+            <class ref="com.demo.wsdl.GetDeliverablePrizesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DeliverPrizesRequest">
+                  
+            <class ref="com.demo.wsdl.DeliverPrizesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DeliverPrizesResponse">
+                  
+            <class ref="com.demo.wsdl.DeliverPrizesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCategoryRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyCategoryRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCategoryResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyCategoryResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TransferPointsRequest">
+                  
+            <class ref="com.demo.wsdl.TransferPointsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TransferPointsResponse">
+                  
+            <class ref="com.demo.wsdl.TransferPointsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SetLogoACKRequest">
+                  
+            <class ref="com.demo.wsdl.SetLogoACKRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SetLogoACKResponse">
+                  
+            <class ref="com.demo.wsdl.SetLogoACKResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetShopsLastMovementsRequest">
+                  
+            <class ref="com.demo.wsdl.GetShopsLastMovementsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetShopsLastMovementsResponse">
+                  
+            <class ref="com.demo.wsdl.GetShopsLastMovementsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCampaignDynamicFieldsRequest">
+                  
+            <class ref="com.demo.wsdl.GetCampaignDynamicFieldsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCampaignDynamicFieldsResponse">
+                  
+            <class ref="com.demo.wsdl.GetCampaignDynamicFieldsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCampaignRequest">
+                  
+            <class ref="com.demo.wsdl.GetCampaignRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCampaignResponse">
+                  
+            <class ref="com.demo.wsdl.GetCampaignResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetGeoLevelsRequest">
+                  
+            <class ref="com.demo.wsdl.GetGeoLevelsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetGeoLevelsResponse">
+                  
+            <class ref="com.demo.wsdl.GetGeoLevelsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCountriesRequest">
+                  
+            <class ref="com.demo.wsdl.GetCountriesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCountriesResponse">
+                  
+            <class ref="com.demo.wsdl.GetCountriesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPaymentMethodRequest">
+                  
+            <class ref="com.demo.wsdl.GetPaymentMethodRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPaymentMethodResponse">
+                  
+            <class ref="com.demo.wsdl.GetPaymentMethodResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCustomerCategoryRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyCustomerCategoryRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyCustomerCategoryResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyCustomerCategoryResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCustomerWOCardRequest">
+                  
+            <class ref="com.demo.wsdl.NewCustomerWOCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCustomerWOCardResponse">
+                  
+            <class ref="com.demo.wsdl.NewCustomerWOCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsByProductsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ChargePointsByProductsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsByProductsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ChargePointsByProductsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangePrizesByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ExchangePrizesByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangePrizesByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ExchangePrizesByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DepreciatePointsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.DepreciatePointsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DepreciatePointsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.DepreciatePointsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LockCustomerAreaAccessByCardRequest">
+                  
+            <class ref="com.demo.wsdl.LockCustomerAreaAccessByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LockCustomerAreaAccessByCardResponse">
+                  
+            <class ref="com.demo.wsdl.LockCustomerAreaAccessByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UnLockCustomerAreaAccessByCardRequest">
+                  
+            <class ref="com.demo.wsdl.UnLockCustomerAreaAccessByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UnLockCustomerAreaAccessByCardResponse">
+                  
+            <class ref="com.demo.wsdl.UnLockCustomerAreaAccessByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCatalogsByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetCatalogsByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCatalogsByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetCatalogsByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetMLMInfoRequest">
+                  
+            <class ref="com.demo.wsdl.GetMLMInfoRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetMLMInfoResponse">
+                  
+            <class ref="com.demo.wsdl.GetMLMInfoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RefundByCardRequest">
+                  
+            <class ref="com.demo.wsdl.RefundByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RefundByCardResponse">
+                  
+            <class ref="com.demo.wsdl.RefundByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:OfflineRefundByCardRequest">
+                  
+            <class ref="com.demo.wsdl.OfflineRefundByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:OfflineRefundByCardResponse">
+                  
+            <class ref="com.demo.wsdl.OfflineRefundByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:OfflineSaleByCardRequest">
+                  
+            <class ref="com.demo.wsdl.OfflineSaleByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:OfflineSaleByCardResponse">
+                  
+            <class ref="com.demo.wsdl.OfflineSaleByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CustomerCheckInRequest">
+                  
+            <class ref="com.demo.wsdl.CustomerCheckInRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CustomerCheckInResponse">
+                  
+            <class ref="com.demo.wsdl.CustomerCheckInResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CustomerCheckOutRequest">
+                  
+            <class ref="com.demo.wsdl.CustomerCheckOutRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CustomerCheckOutResponse">
+                  
+            <class ref="com.demo.wsdl.CustomerCheckOutResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DepreciatePointsRequest">
+                  
+            <class ref="com.demo.wsdl.DepreciatePointsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DepreciatePointsResponse">
+                  
+            <class ref="com.demo.wsdl.DepreciatePointsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetMovementByForeignIdRequest">
+                  
+            <class ref="com.demo.wsdl.GetMovementByForeignIdRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetMovementByForeignIdResponse">
+                  
+            <class ref="com.demo.wsdl.GetMovementByForeignIdResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidatePincodeRequest">
+                  
+            <class ref="com.demo.wsdl.ValidatePincodeRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidatePincodeResponse">
+                  
+            <class ref="com.demo.wsdl.ValidatePincodeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CustomerSocialMediaRequest">
+                  
+            <class ref="com.demo.wsdl.CustomerSocialMediaRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CustomerSocialMediaResponse">
+                  
+            <class ref="com.demo.wsdl.CustomerSocialMediaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerBySocialMediaRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerBySocialMediaRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerBySocialMediaResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerBySocialMediaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByStringCardRequest">
+                  
+            <class ref="com.demo.wsdl.GetInfoByStringCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoByStringCardResponse">
+                  
+            <class ref="com.demo.wsdl.GetInfoByStringCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCustomersByDNIRequest">
+                  
+            <class ref="com.demo.wsdl.GetCustomersByDNIRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCustomersByDNIResponse">
+                  
+            <class ref="com.demo.wsdl.GetCustomersByDNIResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastMovementsByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetLastMovementsByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastMovementsByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetLastMovementsByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastMovementsByCustomerForeignIdRequest">
+                  
+            <class ref="com.demo.wsdl.GetLastMovementsByCustomerForeignIdRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastMovementsByCustomerForeignIdResponse">
+                  
+            <class ref="com.demo.wsdl.GetLastMovementsByCustomerForeignIdResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AssignTicketToMovementRequest">
+                  
+            <class ref="com.demo.wsdl.AssignTicketToMovementRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AssignTicketToMovementResponse">
+                  
+            <class ref="com.demo.wsdl.AssignTicketToMovementResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetNewsRequest">
+                  
+            <class ref="com.demo.wsdl.GetNewsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetNewsResponse">
+                  
+            <class ref="com.demo.wsdl.GetNewsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangeInformationRequest">
+                  
+            <class ref="com.demo.wsdl.GetExchangeInformationRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangeInformationResponse">
+                  
+            <class ref="com.demo.wsdl.GetExchangeInformationResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RecalculatePromotionsRequest">
+                  
+            <class ref="com.demo.wsdl.RecalculatePromotionsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RecalculatePromotionsResponse">
+                  
+            <class ref="com.demo.wsdl.RecalculatePromotionsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByPersonalDataByRegistrationShopRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByPersonalDataByRegistrationShopRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomerByPersonalDataByRegistrationShopResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomerByPersonalDataByRegistrationShopResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDeliverableAllPrizesRequest">
+                  
+            <class ref="com.demo.wsdl.GetDeliverableAllPrizesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDeliverableAllPrizesResponse">
+                  
+            <class ref="com.demo.wsdl.GetDeliverableAllPrizesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetProductsRequest">
+                  
+            <class ref="com.demo.wsdl.GetProductsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetProductsResponse">
+                  
+            <class ref="com.demo.wsdl.GetProductsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyExchangeShippingInfoRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyExchangeShippingInfoRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyExchangeShippingInfoResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyExchangeShippingInfoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardPOSRequest">
+                  
+            <class ref="com.demo.wsdl.NewCardPOSRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NewCardPOSResponse">
+                  
+            <class ref="com.demo.wsdl.NewCardPOSResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetSellerListRequest">
+                  
+            <class ref="com.demo.wsdl.GetSellerListRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetSellerListResponse">
+                  
+            <class ref="com.demo.wsdl.GetSellerListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDealerRequest">
+                  
+            <class ref="com.demo.wsdl.GetDealerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDealerResponse">
+                  
+            <class ref="com.demo.wsdl.GetDealerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TransferCreditsRequest">
+                  
+            <class ref="com.demo.wsdl.TransferCreditsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:TransferCreditsResponse">
+                  
+            <class ref="com.demo.wsdl.TransferCreditsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangePrizesByOtpRequest">
+                  
+            <class ref="com.demo.wsdl.GetExchangePrizesByOtpRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangePrizesByOtpResponse">
+                  
+            <class ref="com.demo.wsdl.GetExchangePrizesByOtpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConfirmOtpMovementRequest">
+                  
+            <class ref="com.demo.wsdl.ConfirmOtpMovementRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConfirmOtpMovementResponse">
+                  
+            <class ref="com.demo.wsdl.ConfirmOtpMovementResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangePrizesByOtpAndCardRequest">
+                  
+            <class ref="com.demo.wsdl.GetExchangePrizesByOtpAndCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExchangePrizesByOtpAndCardResponse">
+                  
+            <class ref="com.demo.wsdl.GetExchangePrizesByOtpAndCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConfirmOtpMovementByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ConfirmOtpMovementByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConfirmOtpMovementByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ConfirmOtpMovementByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:InsertGamificationByCardRequest">
+                  
+            <class ref="com.demo.wsdl.InsertGamificationByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:InsertGamificationByCardResponse">
+                  
+            <class ref="com.demo.wsdl.InsertGamificationByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CashBackByCardRequest">
+                  
+            <class ref="com.demo.wsdl.CashBackByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CashBackByCardResponse">
+                  
+            <class ref="com.demo.wsdl.CashBackByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LockRedemptionPointsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.LockRedemptionPointsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:LockRedemptionPointsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.LockRedemptionPointsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UnlockRedemptionPointsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.UnlockRedemptionPointsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UnlockRedemptionPointsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.UnlockRedemptionPointsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangeGiftCardByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ExchangeGiftCardByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangeGiftCardByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ExchangeGiftCardByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangeExternalTransferByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ExchangeExternalTransferByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangeExternalTransferByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ExchangeExternalTransferByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ResetMyPasswordRequest">
+                  
+            <class ref="com.demo.wsdl.ResetMyPasswordRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ResetMyPasswordResponse">
+                  
+            <class ref="com.demo.wsdl.ResetMyPasswordResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RenewMyPasswordRequest">
+                  
+            <class ref="com.demo.wsdl.RenewMyPasswordRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RenewMyPasswordResponse">
+                  
+            <class ref="com.demo.wsdl.RenewMyPasswordResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DeliverGiftCardRequest">
+                  
+            <class ref="com.demo.wsdl.DeliverGiftCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DeliverGiftCardResponse">
+                  
+            <class ref="com.demo.wsdl.DeliverGiftCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchGiftCardByFoilRequest">
+                  
+            <class ref="com.demo.wsdl.SearchGiftCardByFoilRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchGiftCardByFoilResponse">
+                  
+            <class ref="com.demo.wsdl.SearchGiftCardByFoilResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:PrizeSeenRequest">
+                  
+            <class ref="com.demo.wsdl.PrizeSeenRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:PrizeSeenResponse">
+                  
+            <class ref="com.demo.wsdl.PrizeSeenResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReadPushRequest">
+                  
+            <class ref="com.demo.wsdl.ReadPushRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReadPushResponse">
+                  
+            <class ref="com.demo.wsdl.ReadPushResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:InviteFriendByCodeRequest">
+                  
+            <class ref="com.demo.wsdl.InviteFriendByCodeRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:InviteFriendByCodeResponse">
+                  
+            <class ref="com.demo.wsdl.InviteFriendByCodeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesCategoriesRequest">
+                  
+            <class ref="com.demo.wsdl.GetPrizesCategoriesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesCategoriesResponse">
+                  
+            <class ref="com.demo.wsdl.GetPrizesCategoriesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetPrizesByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetPrizesByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReadNewsRequest">
+                  
+            <class ref="com.demo.wsdl.ReadNewsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReadNewsResponse">
+                  
+            <class ref="com.demo.wsdl.ReadNewsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetNewsByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetNewsByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetNewsByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetNewsByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsByProductsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.DischargePointsByProductsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsByProductsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.DischargePointsByProductsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetIdentityCardTypesRequest">
+                  
+            <class ref="com.demo.wsdl.GetIdentityCardTypesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetIdentityCardTypesResponse">
+                  
+            <class ref="com.demo.wsdl.GetIdentityCardTypesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetOtpMovementRequest">
+                  
+            <class ref="com.demo.wsdl.GetOtpMovementRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetOtpMovementResponse">
+                  
+            <class ref="com.demo.wsdl.GetOtpMovementResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExternalTransferCategoriesRequest">
+                  
+            <class ref="com.demo.wsdl.GetExternalTransferCategoriesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExternalTransferCategoriesResponse">
+                  
+            <class ref="com.demo.wsdl.GetExternalTransferCategoriesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCatalogsExternalTransferRequest">
+                  
+            <class ref="com.demo.wsdl.GetCatalogsExternalTransferRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCatalogsExternalTransferResponse">
+                  
+            <class ref="com.demo.wsdl.GetCatalogsExternalTransferResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCatalogsExternalTransferByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetCatalogsExternalTransferByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCatalogsExternalTransferByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetCatalogsExternalTransferByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetNewsCategoriesRequest">
+                  
+            <class ref="com.demo.wsdl.GetNewsCategoriesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetNewsCategoriesResponse">
+                  
+            <class ref="com.demo.wsdl.GetNewsCategoriesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCategoryBadgesRequest">
+                  
+            <class ref="com.demo.wsdl.GetCategoryBadgesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCategoryBadgesResponse">
+                  
+            <class ref="com.demo.wsdl.GetCategoryBadgesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CategoryBadgesManagementRequest">
+                  
+            <class ref="com.demo.wsdl.CategoryBadgesManagementRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CategoryBadgesManagementResponse">
+                  
+            <class ref="com.demo.wsdl.CategoryBadgesManagementResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetBadgesRequest">
+                  
+            <class ref="com.demo.wsdl.GetBadgesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetBadgesResponse">
+                  
+            <class ref="com.demo.wsdl.GetBadgesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:BadgesManagementRequest">
+                  
+            <class ref="com.demo.wsdl.BadgesManagementRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:BadgesManagementResponse">
+                  
+            <class ref="com.demo.wsdl.BadgesManagementResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UseBadgeRequest">
+                  
+            <class ref="com.demo.wsdl.UseBadgeRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:UseBadgeResponse">
+                  
+            <class ref="com.demo.wsdl.UseBadgeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetVoucherPrizeCatalogListRequest">
+                  
+            <class ref="com.demo.wsdl.GetVoucherPrizeCatalogListRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetVoucherPrizeCatalogListResponse">
+                  
+            <class ref="com.demo.wsdl.GetVoucherPrizeCatalogListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateVoucherCatalogPrizeRequest">
+                  
+            <class ref="com.demo.wsdl.ValidateVoucherCatalogPrizeRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateVoucherCatalogPrizeResponse">
+                  
+            <class ref="com.demo.wsdl.ValidateVoucherCatalogPrizeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:WishlistRequest">
+                  
+            <class ref="com.demo.wsdl.WishlistRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:WishlistResponse">
+                  
+            <class ref="com.demo.wsdl.WishlistResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetWishlistRequest">
+                  
+            <class ref="com.demo.wsdl.GetWishlistRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetWishlistResponse">
+                  
+            <class ref="com.demo.wsdl.GetWishlistResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExternalTransferByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetExternalTransferByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetExternalTransferByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetExternalTransferByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SuggestedPrizesRequest">
+                  
+            <class ref="com.demo.wsdl.SuggestedPrizesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SuggestedPrizesResponse">
+                  
+            <class ref="com.demo.wsdl.SuggestedPrizesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DistributePointsAccountRequest">
+                  
+            <class ref="com.demo.wsdl.DistributePointsAccountRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DistributePointsAccountResponse">
+                  
+            <class ref="com.demo.wsdl.DistributePointsAccountResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetBillingTargetsRequest">
+                  
+            <class ref="com.demo.wsdl.GetBillingTargetsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetBillingTargetsResponse">
+                  
+            <class ref="com.demo.wsdl.GetBillingTargetsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesCategoriesByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetPrizesCategoriesByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesCategoriesByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetPrizesCategoriesByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsStatusByCardRequest">
+                  
+            <class ref="com.demo.wsdl.ChargePointsStatusByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ChargePointsStatusByCardResponse">
+                  
+            <class ref="com.demo.wsdl.ChargePointsStatusByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsStatusByCardRequest">
+                  
+            <class ref="com.demo.wsdl.DischargePointsStatusByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DischargePointsStatusByCardResponse">
+                  
+            <class ref="com.demo.wsdl.DischargePointsStatusByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoRequest">
+                  
+            <class ref="com.demo.wsdl.GetInfoRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetInfoResponse">
+                  
+            <class ref="com.demo.wsdl.GetInfoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateCardRequest">
+                  
+            <class ref="com.demo.wsdl.ValidateCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidateCardResponse">
+                  
+            <class ref="com.demo.wsdl.ValidateCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomersByForeignIdRequest">
+                  
+            <class ref="com.demo.wsdl.SearchCustomersByForeignIdRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SearchCustomersByForeignIdResponse">
+                  
+            <class ref="com.demo.wsdl.SearchCustomersByForeignIdResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyMovementTicketRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyMovementTicketRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyMovementTicketResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyMovementTicketResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyMovementNotesRequest">
+                  
+            <class ref="com.demo.wsdl.ModifyMovementNotesRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ModifyMovementNotesResponse">
+                  
+            <class ref="com.demo.wsdl.ModifyMovementNotesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SendMovementTicketRequest">
+                  
+            <class ref="com.demo.wsdl.SendMovementTicketRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SendMovementTicketResponse">
+                  
+            <class ref="com.demo.wsdl.SendMovementTicketResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPonderationByProviderRequest">
+                  
+            <class ref="com.demo.wsdl.GetPonderationByProviderRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPonderationByProviderResponse">
+                  
+            <class ref="com.demo.wsdl.GetPonderationByProviderResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetGiftByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetGiftByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetGiftByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetGiftByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesChildsListRequest">
+                  
+            <class ref="com.demo.wsdl.GetPrizesChildsListRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesChildsListResponse">
+                  
+            <class ref="com.demo.wsdl.GetPrizesChildsListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesGiftChildsListRequest">
+                  
+            <class ref="com.demo.wsdl.GetPrizesGiftChildsListRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesGiftChildsListResponse">
+                  
+            <class ref="com.demo.wsdl.GetPrizesGiftChildsListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDiscountExchangeRequest">
+                  
+            <class ref="com.demo.wsdl.GetDiscountExchangeRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDiscountExchangeResponse">
+                  
+            <class ref="com.demo.wsdl.GetDiscountExchangeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDiscountExchangeGiftRequest">
+                  
+            <class ref="com.demo.wsdl.GetDiscountExchangeGiftRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDiscountExchangeGiftResponse">
+                  
+            <class ref="com.demo.wsdl.GetDiscountExchangeGiftResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetMaxToExchangePrizeRequest">
+                  
+            <class ref="com.demo.wsdl.GetMaxToExchangePrizeRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetMaxToExchangePrizeResponse">
+                  
+            <class ref="com.demo.wsdl.GetMaxToExchangePrizeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:BuyPointsByCardRequest">
+                  
+            <class ref="com.demo.wsdl.BuyPointsByCardRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:BuyPointsByCardResponse">
+                  
+            <class ref="com.demo.wsdl.BuyPointsByCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetAccountStateByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetAccountStateByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetAccountStateByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetAccountStateByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ShoppingCartRequest">
+                  
+            <class ref="com.demo.wsdl.ShoppingCartRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ShoppingCartResponse">
+                  
+            <class ref="com.demo.wsdl.ShoppingCartResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ShoppingCartRemoveRequest">
+                  
+            <class ref="com.demo.wsdl.ShoppingCartRemoveRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ShoppingCartRemoveResponse">
+                  
+            <class ref="com.demo.wsdl.ShoppingCartRemoveResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetShoppingCartRequest">
+                  
+            <class ref="com.demo.wsdl.GetShoppingCartRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetShoppingCartResponse">
+                  
+            <class ref="com.demo.wsdl.GetShoppingCartResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastShoppingCartRequest">
+                  
+            <class ref="com.demo.wsdl.GetLastShoppingCartRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetLastShoppingCartResponse">
+                  
+            <class ref="com.demo.wsdl.GetLastShoppingCartResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CleanShoppingCartRequest">
+                  
+            <class ref="com.demo.wsdl.CleanShoppingCartRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CleanShoppingCartResponse">
+                  
+            <class ref="com.demo.wsdl.CleanShoppingCartResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangeRedemptionChannelRequest">
+                  
+            <class ref="com.demo.wsdl.ExchangeRedemptionChannelRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExchangeRedemptionChannelResponse">
+                  
+            <class ref="com.demo.wsdl.ExchangeRedemptionChannelResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesCategoryKeysRequest">
+                  
+            <class ref="com.demo.wsdl.GetPrizesCategoryKeysRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPrizesCategoryKeysResponse">
+                  
+            <class ref="com.demo.wsdl.GetPrizesCategoryKeysResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPaymentMethodByCampaignRequest">
+                  
+            <class ref="com.demo.wsdl.GetPaymentMethodByCampaignRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPaymentMethodByCampaignResponse">
+                  
+            <class ref="com.demo.wsdl.GetPaymentMethodByCampaignResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetRedemptionChannelByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetRedemptionChannelByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetRedemptionChannelByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetRedemptionChannelByCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCrmsByCustomerRequest">
+                  
+            <class ref="com.demo.wsdl.GetCrmsByCustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetCrmsByCustomerResponse">
+                  
+            <class ref="com.demo.wsdl.GetCrmsByCustomerResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://FidelyNET3_SW_01_89_00" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.demo.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Operator">
+                  
+            <class ref="com.demo.wsdl.WSOperator"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Shop">
+                  
+            <class ref="com.demo.wsdl.WSShop"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShopByCampaignBehavior">
+                  
+            <class ref="com.demo.wsdl.WSShopByCampaignBehavior"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_TerminalByCampaign">
+                  
+            <class ref="com.demo.wsdl.WSTerminalByCampaign"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_TerminalBehavior">
+                  
+            <class ref="com.demo.wsdl.WSTerminalBehavior"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PaginationResult">
+                  
+            <class ref="com.demo.wsdl.WSPaginationResult"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Campaign">
+                  
+            <class ref="com.demo.wsdl.WSCampaign"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CategoryByShop">
+                  
+            <class ref="com.demo.wsdl.WSCategoryByShop"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerBase">
+                  
+            <class ref="com.demo.wsdl.WSCustomerBase"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerInfo">
+                  
+            <class ref="com.demo.wsdl.WSCustomerInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Movement">
+                  
+            <class ref="com.demo.wsdl.WSMovement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShopStatus">
+                  
+            <class ref="com.demo.wsdl.WSShopStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Promotion">
+                  
+            <class ref="com.demo.wsdl.WSPromotion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerBaseStringGeolevel">
+                  
+            <class ref="com.demo.wsdl.WSCustomerBaseStringGeolevel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerBaseCard">
+                  
+            <class ref="com.demo.wsdl.WSCustomerBaseCard"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Customer">
+                  
+            <class ref="com.demo.wsdl.WSCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerComplete">
+                  
+            <class ref="com.demo.wsdl.WSCustomerComplete"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerToModify">
+                  
+            <class ref="com.demo.wsdl.WSCustomerToModify"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerToModifyByCard">
+                  
+            <class ref="com.demo.wsdl.WSCustomerToModifyByCard"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_MovementWithPromotions">
+                  
+            <class ref="com.demo.wsdl.WSMovementWithPromotions"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PurchasePaymentMethod">
+                  
+            <class ref="com.demo.wsdl.WSPurchasePaymentMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Product4Sale">
+                  
+            <class ref="com.demo.wsdl.WSProduct4Sale"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ProductPrice">
+                  
+            <class ref="com.demo.wsdl.WSProductPrice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Product4SaleGeneric">
+                  
+            <class ref="com.demo.wsdl.WSProduct4SaleGeneric"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Discount">
+                  
+            <class ref="com.demo.wsdl.WSDiscount"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Voucher">
+                  
+            <class ref="com.demo.wsdl.WSVoucher"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_InterestArea">
+                  
+            <class ref="com.demo.wsdl.WSInterestArea"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Product4SaleLittle">
+                  
+            <class ref="com.demo.wsdl.WSProduct4SaleLittle"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ValidateVoucher">
+                  
+            <class ref="com.demo.wsdl.WSValidateVoucher"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Product">
+                  
+            <class ref="com.demo.wsdl.WSProduct"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Prize">
+                  
+            <class ref="com.demo.wsdl.WSPrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangeablePrize">
+                  
+            <class ref="com.demo.wsdl.WSExchangeablePrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShippingInformation">
+                  
+            <class ref="com.demo.wsdl.WSShippingInformation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShippingCost">
+                  
+            <class ref="com.demo.wsdl.WSShippingCost"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShippingShop">
+                  
+            <class ref="com.demo.wsdl.WSShippingShop"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangedPrize">
+                  
+            <class ref="com.demo.wsdl.WSExchangedPrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CategoryByShopModify">
+                  
+            <class ref="com.demo.wsdl.WSCategoryByShopModify"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_DynamicField">
+                  
+            <class ref="com.demo.wsdl.WSDynamicField"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_GeoLevel">
+                  
+            <class ref="com.demo.wsdl.WSGeoLevel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Country">
+                  
+            <class ref="com.demo.wsdl.WSCountry"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PaymentMethod">
+                  
+            <class ref="com.demo.wsdl.WSPaymentMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerWOCard">
+                  
+            <class ref="com.demo.wsdl.WSCustomerWOCard"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_OrderFields">
+                  
+            <class ref="com.demo.wsdl.WSOrderFields"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Catalog">
+                  
+            <class ref="com.demo.wsdl.WSCatalog"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PromotionNotWinner">
+                  
+            <class ref="com.demo.wsdl.WSPromotionNotWinner"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_GeneralBillingData">
+                  
+            <class ref="com.demo.wsdl.SWGeneralBillingData"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_News">
+                  
+            <class ref="com.demo.wsdl.WSNews"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_DeliverablePrizes">
+                  
+            <class ref="com.demo.wsdl.WSDeliverablePrizes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ProductDetail">
+                  
+            <class ref="com.demo.wsdl.WSProductDetail"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerSeller">
+                  
+            <class ref="com.demo.wsdl.WSCustomerSeller"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerDealer">
+                  
+            <class ref="com.demo.wsdl.WSCustomerDealer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangeCode">
+                  
+            <class ref="com.demo.wsdl.WSExchangeCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ConceptList">
+                  
+            <class ref="com.demo.wsdl.WSConceptList"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizePaymentMethod">
+                  
+            <class ref="com.demo.wsdl.WSPrizePaymentMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Key">
+                  
+            <class ref="com.demo.wsdl.WSKey"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_FoilList">
+                  
+            <class ref="com.demo.wsdl.WSFoilList"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeCategory">
+                  
+            <class ref="com.demo.wsdl.WSPrizeCategory"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_NewsByCustomer">
+                  
+            <class ref="com.demo.wsdl.WSNewsByCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_IdentityCardTypes">
+                  
+            <class ref="com.demo.wsdl.WSIdentityCardTypes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Otp_Movement">
+                  
+            <class ref="com.demo.wsdl.WSOtpMovement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExternalTransfer_Category">
+                  
+            <class ref="com.demo.wsdl.WSExternalTransferCategory"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CatalogExternalTransfer">
+                  
+            <class ref="com.demo.wsdl.WSCatalogExternalTransfer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_NewsCategory">
+                  
+            <class ref="com.demo.wsdl.WSNewsCategory"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CategoryBadge">
+                  
+            <class ref="com.demo.wsdl.WSCategoryBadge"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Badge">
+                  
+            <class ref="com.demo.wsdl.WSBadge"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeItem">
+                  
+            <class ref="com.demo.wsdl.WSPrizeItem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeWishlist">
+                  
+            <class ref="com.demo.wsdl.WSPrizeWishlist"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_LittlePrize">
+                  
+            <class ref="com.demo.wsdl.WSLittlePrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExternalTransferByCustomer">
+                  
+            <class ref="com.demo.wsdl.WSExternalTransferByCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Billing">
+                  
+            <class ref="com.demo.wsdl.WSBilling"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExternalSale">
+                  
+            <class ref="com.demo.wsdl.WSExternalSale"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_BalancePoints">
+                  
+            <class ref="com.demo.wsdl.WSBalancePoints"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PonderationByProvider">
+                  
+            <class ref="com.demo.wsdl.WSPonderationByProvider"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Prize4Exchange">
+                  
+            <class ref="com.demo.wsdl.WSPrize4Exchange"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_DiscountExchange">
+                  
+            <class ref="com.demo.wsdl.WSDiscountExchange"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Gift4Exchange">
+                  
+            <class ref="com.demo.wsdl.WSGift4Exchange"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Discount4Prize">
+                  
+            <class ref="com.demo.wsdl.WSDiscount4Prize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangePrizeCart">
+                  
+            <class ref="com.demo.wsdl.WSExchangePrizeCart"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShoppingCartExchangeInfo">
+                  
+            <class ref="com.demo.wsdl.WSShoppingCartExchangeInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_ExchangeableChannel">
+                  
+            <class ref="com.demo.wsdl.SWExchangeableChannel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeCategoryKey">
+                  
+            <class ref="com.demo.wsdl.WSPrizeCategoryKey"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PaymentMethodByCampaign">
+                  
+            <class ref="com.demo.wsdl.WSPaymentMethodByCampaign"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_RedemptionChannel">
+                  
+            <class ref="com.demo.wsdl.SWRedemptionChannel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_Crm">
+                  
+            <class ref="com.demo.wsdl.SWCrm"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PromotionPrize">
+                  
+            <class ref="com.demo.wsdl.WSPromotionPrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizePromotionPrize">
+                  
+            <class ref="com.demo.wsdl.WSPrizePromotionPrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PaymentMethodPromotionPrize">
+                  
+            <class ref="com.demo.wsdl.WSPaymentMethodPromotionPrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeCatalogPromotionPrize">
+                  
+            <class ref="com.demo.wsdl.WSPrizeCatalogPromotionPrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_FlagsPromotion">
+                  
+            <class ref="com.demo.wsdl.WSFlagsPromotion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShopByCampaign">
+                  
+            <class ref="com.demo.wsdl.WSShopByCampaign"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeFlags">
+                  
+            <class ref="com.demo.wsdl.WSPrizeFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_OtpFlags">
+                  
+            <class ref="com.demo.wsdl.WSOtpFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_OperatorFlags">
+                  
+            <class ref="com.demo.wsdl.WSOperatorFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_SimpleTerminalProfile">
+                  
+            <class ref="com.demo.wsdl.WSSimpleTerminalProfile"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_TerminalInformativeFlags">
+                  
+            <class ref="com.demo.wsdl.WSTerminalInformativeFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Discount4Product">
+                  
+            <class ref="com.demo.wsdl.WSDiscount4Product"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_BehaviorFlags2">
+                  
+            <class ref="com.demo.wsdl.WSBehaviorFlags2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_BehaviorFlags">
+                  
+            <class ref="com.demo.wsdl.WSBehaviorFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_NetBehaviorFlags">
+                  
+            <class ref="com.demo.wsdl.WSNetBehaviorFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_NetFlags">
+                  
+            <class ref="com.demo.wsdl.WSNetFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_TerminalByCampaignBehaviorFlags">
+                  
+            <class ref="com.demo.wsdl.WSTerminalByCampaignBehaviorFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_TerminalByCampaignLogoFlags">
+                  
+            <class ref="com.demo.wsdl.WSTerminalByCampaignLogoFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_OperativeShopFlags2">
+                  
+            <class ref="com.demo.wsdl.WSOperativeShopFlags2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_OperativeShopFlags3">
+                  
+            <class ref="com.demo.wsdl.WSOperativeShopFlags3"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_TerminalRights">
+                  
+            <class ref="com.demo.wsdl.WSTerminalRights"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_OperativeShopFlags">
+                  
+            <class ref="com.demo.wsdl.WSOperativeShopFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CampaignTicket">
+                  
+            <class ref="com.demo.wsdl.WSCampaignTicket"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CampaignTicketFlags">
+                  
+            <class ref="com.demo.wsdl.WSCampaignTicketFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_MinimumCustomerFields">
+                  
+            <class ref="com.demo.wsdl.WSMinimumCustomerFields"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PaymentMethodFlags">
+                  
+            <class ref="com.demo.wsdl.WSPaymentMethodFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_InterestAreaCustomer">
+                  
+            <class ref="com.demo.wsdl.WSInterestAreaCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PersonalInfo">
+                  
+            <class ref="com.demo.wsdl.WSPersonalInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PersonalInfoStringGeolevel">
+                  
+            <class ref="com.demo.wsdl.WSPersonalInfoStringGeolevel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Balance">
+                  
+            <class ref="com.demo.wsdl.WSBalance"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerAreaFlags">
+                  
+            <class ref="com.demo.wsdl.WSCustomerAreaFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerDynamicField">
+                  
+            <class ref="com.demo.wsdl.WSCustomerDynamicField"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CategoryByShopBase">
+                  
+            <class ref="com.demo.wsdl.WSCategoryByShopBase"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CategoryFlags">
+                  
+            <class ref="com.demo.wsdl.WSCategoryFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CategoryFlagsBase">
+                  
+            <class ref="com.demo.wsdl.WSCategoryFlagsBase"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_DynamicFieldFlags">
+                  
+            <class ref="com.demo.wsdl.WSDynamicFieldFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_DynamicFieldOption">
+                  
+            <class ref="com.demo.wsdl.WSDynamicFieldOption"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_DynamicFieldType">
+                  
+            <class ref="com.demo.wsdl.WSDynamicFieldType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeCategoryFlags">
+                  
+            <class ref="com.demo.wsdl.WSPrizeCategoryFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerPrivacy">
+                  
+            <class ref="com.demo.wsdl.WSCustomerPrivacy"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CatalogFlagsExternalTransfer">
+                  
+            <class ref="com.demo.wsdl.WSCatalogFlagsExternalTransfer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_FixedPoints">
+                  
+            <class ref="com.demo.wsdl.WSFixedPoints"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_WeightExternalTransfer">
+                  
+            <class ref="com.demo.wsdl.WSWeightExternalTransfer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CatalogFlags">
+                  
+            <class ref="com.demo.wsdl.WSCatalogFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PeriodSimple">
+                  
+            <class ref="com.demo.wsdl.WSPeriodSimple"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangedPrizeCartFlags">
+                  
+            <class ref="com.demo.wsdl.WSExchangedPrizeCartFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangedPrizeFlags">
+                  
+            <class ref="com.demo.wsdl.WSExchangedPrizeFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangeCodeFlags">
+                  
+            <class ref="com.demo.wsdl.WSExchangeCodeFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CompleteCustomerFields">
+                  
+            <class ref="com.demo.wsdl.WSCompleteCustomerFields"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerFlags">
+                  
+            <class ref="com.demo.wsdl.WSCustomerFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ProductPromotionPrize">
+                  
+            <class ref="com.demo.wsdl.WSProductPromotionPrize"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_ProductVoucher">
+                  
+            <class ref="com.demo.wsdl.SWProductVoucher"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_ValidateProductVoucher">
+                  
+            <class ref="com.demo.wsdl.SWValidateProductVoucher"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_CategoryVoucher">
+                  
+            <class ref="com.demo.wsdl.SWCategoryVoucher"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeCatalogVoucher">
+                  
+            <class ref="com.demo.wsdl.WSPrizeCatalogVoucher"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeInfo">
+                  
+            <class ref="com.demo.wsdl.WSPrizeInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_NewsSeen">
+                  
+            <class ref="com.demo.wsdl.WSNewsSeen"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_NewsImages">
+                  
+            <class ref="com.demo.wsdl.WSNewsImages"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductCategorySpecialFeatureWithValue">
+                  
+            <class ref="com.demo.wsdl.ProductCategorySpecialFeatureWithValue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_OtherImage">
+                  
+            <class ref="com.demo.wsdl.WSOtherImage"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExternalTransferCategoryFlags">
+                  
+            <class ref="com.demo.wsdl.WSExternalTransferCategoryFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CustomerInformationToExpire">
+                  
+            <class ref="com.demo.wsdl.WSCustomerInformationToExpire"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_CategoryBadgeFlags">
+                  
+            <class ref="com.demo.wsdl.WSCategoryBadgeFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_Badge_Flags">
+                  
+            <class ref="com.demo.wsdl.WSBadgeFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_BadgeLevel">
+                  
+            <class ref="com.demo.wsdl.WSBadgeLevel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_BadgeLevelFlags">
+                  
+            <class ref="com.demo.wsdl.WSBadgeLevelFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangedExternalTransfer">
+                  
+            <class ref="com.demo.wsdl.WSExchangedExternalTransfer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_GeneralBillingDataInf">
+                  
+            <class ref="com.demo.wsdl.WSGeneralBillingDataInf"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_AdvancePercents">
+                  
+            <class ref="com.demo.wsdl.WSAdvancePercents"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_BillingDataByProduct">
+                  
+            <class ref="com.demo.wsdl.WSBillingDataByProduct"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_BillingDataByProductCategory">
+                  
+            <class ref="com.demo.wsdl.WSBillingDataByProductCategory"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ProductTarget">
+                  
+            <class ref="com.demo.wsdl.WSProductTarget"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ExchangedPrizeWithPromotions">
+                  
+            <class ref="com.demo.wsdl.WSExchangedPrizeWithPromotions"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ShoppingCartBalance">
+                  
+            <class ref="com.demo.wsdl.WSShoppingCartBalance"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_ChannelPaymentMethod">
+                  
+            <class ref="com.demo.wsdl.WSChannelPaymentMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_KeyChannel">
+                  
+            <class ref="com.demo.wsdl.WSKeyChannel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PrizeCategoryKeyFlags">
+                  
+            <class ref="com.demo.wsdl.WSPrizeCategoryKeyFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WS_PaymentMethodByCampaignFlags">
+                  
+            <class ref="com.demo.wsdl.WSPaymentMethodByCampaignFlags"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SW_RedemptionChannelFlags">
+                  
+            <class ref="com.demo.wsdl.SWRedemptionChannelFlags"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>

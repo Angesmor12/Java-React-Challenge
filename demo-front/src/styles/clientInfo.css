@@ -1,0 +1,81 @@
+.info-client-container-main{
+    display: flex;
+    width: 100%;
+}
+
+.info-client-container{
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title{
+    width: 100%;
+}
+
+.info-client{
+    width: 50%;
+    background: rgb(178, 191, 202);
+}
+
+.form-info-client-container, .sale-info-client-container{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.form-info-client-container div{
+    padding: 2.5rem;
+}
+
+.form-info-client-container button{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.sale-info-details{
+    padding: 0.5rem;
+    border-radius: 1%;
+    background: rgb(255,255,255);
+    word-wrap: break-word;
+}
+
+.sale-info-details div{
+    margin-bottom: 0.5rem;
+}
+
+.sale-info-client-container{
+    overflow-y: scroll;
+    height: 30rem;
+}
+
+.sale-info-client{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    
+    .info-client-container-main{
+        flex-wrap: wrap;
+    }
+    
+    .sale-info-client-container, .form-info-client-container, .info-client-container{
+       width: 100%;
+      
+    }
+
+    .info-client-container{
+        margin-top: 20rem;
+    }
+
+    footer{
+        display: none;
+    }
+}

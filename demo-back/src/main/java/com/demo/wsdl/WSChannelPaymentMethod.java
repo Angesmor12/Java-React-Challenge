@@ -1,0 +1,201 @@
+//
+// Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+// Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+// Generado el: 2025.03.14 a las 10:29:30 AM ART 
+//
+
+
+package com.demo.wsdl;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Clase Java para WS_ChannelPaymentMethod complex type.
+ * 
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * 
+ * <pre>
+ * &lt;complexType name="WS_ChannelPaymentMethod"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}long"/&gt;
+ *         &lt;element name="foreignId" type="{http://www.w3.org/2001/XMLSchema}long"/&gt;
+ *         &lt;element name="code" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="money" type="{http://www.w3.org/2001/XMLSchema}double"/&gt;
+ *         &lt;element name="currencyId" type="{http://www.w3.org/2001/XMLSchema}long"/&gt;
+ *         &lt;element name="bin" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="last4CardNumber" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *       &lt;/sequence&gt;
+ *     &lt;/restriction&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "WS_ChannelPaymentMethod", namespace = "http://FidelyNET3_SW_01_89_00", propOrder = {
+    "id",
+    "foreignId",
+    "code",
+    "money",
+    "currencyId",
+    "bin",
+    "last4CardNumber"
+})
+public class WSChannelPaymentMethod {
+
+    protected long id;
+    protected long foreignId;
+    @XmlElement(required = true)
+    protected String code;
+    protected double money;
+    protected long currencyId;
+    @XmlElement(required = true)
+    protected String bin;
+    @XmlElement(required = true)
+    protected String last4CardNumber;
+
+    /**
+     * Obtiene el valor de la propiedad id.
+     * 
+     */
+    public long getId() {
+        return id;
+    }
+
+    /**
+     * Define el valor de la propiedad id.
+     * 
+     */
+    public void setId(long value) {
+        this.id = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad foreignId.
+     * 
+     */
+    public long getForeignId() {
+        return foreignId;
+    }
+
+    /**
+     * Define el valor de la propiedad foreignId.
+     * 
+     */
+    public void setForeignId(long value) {
+        this.foreignId = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad code.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getCode() {
+        return code;
+    }
+
+    /**
+     * Define el valor de la propiedad code.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setCode(String value) {
+        this.code = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad money.
+     * 
+     */
+    public double getMoney() {
+        return money;
+    }
+
+    /**
+     * Define el valor de la propiedad money.
+     * 
+     */
+    public void setMoney(double value) {
+        this.money = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad currencyId.
+     * 
+     */
+    public long getCurrencyId() {
+        return currencyId;
+    }
+
+    /**
+     * Define el valor de la propiedad currencyId.
+     * 
+     */
+    public void setCurrencyId(long value) {
+        this.currencyId = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad bin.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getBin() {
+        return bin;
+    }
+
+    /**
+     * Define el valor de la propiedad bin.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setBin(String value) {
+        this.bin = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad last4CardNumber.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getLast4CardNumber() {
+        return last4CardNumber;
+    }
+
+    /**
+     * Define el valor de la propiedad last4CardNumber.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setLast4CardNumber(String value) {
+        this.last4CardNumber = value;
+    }
+
+}
