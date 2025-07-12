@@ -10,11 +10,14 @@ Make sure you have Node.js and npm installed on your system.
 From the terminal, navigate to the "demo-front" folder.
 
 Run the following commands:
+
 a. npm install (installs the dependencies)
+
 b. npm start (starts the project)
 
 Once these steps are completed, the application will run on port 3000.
 You can access it through the following URL:
+
 http://localhost:3000
 
 # Back-end
@@ -28,9 +31,12 @@ Make sure JDK 17 and Maven are installed on your system.
 From the terminal, navigate to the "demo-back" folder.
 
 Run the following commands:
+
 a. mvn clean install (installs the dependencies)
+
 b. mvn spring-boot:run (starts the project)
 
 Once these steps are completed, the application will run on port 8000.
 You can access it through the following URL:
+
 http://localhost:8000
